@@ -1,0 +1,17 @@
+# user to enter a string, convert the string to acronym and to capital letter
+
+
+# Ask for a sting
+new_string = input('convert to acronym :')
+
+# Convert the string to uppercase
+new_string = new_string.upper()
+
+# Convert the string into a list
+a_list = new_string.split()
+# Cycle through the list
+for i in a_list:
+    # Get the 1st letter of the word and eliminate the newline
+    print(i[0], end='') 
+# Add new line
+print()
