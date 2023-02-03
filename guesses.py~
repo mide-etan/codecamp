@@ -1,0 +1,5 @@
+num = 7
+while (num != 7):
+    print('Guess a number betweem 1 and 10')
+
+print('you guessed it')
